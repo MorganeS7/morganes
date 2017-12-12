@@ -1,0 +1,15 @@
+<h3>My Websites</h3>
+<div ng-repeat="website in websites">
+<div class="media">
+        <div class="media-left media-top">
+            <a href="{{website.link}}" target="_blank">
+            <img class="media-object img-thumbnail"
+             src="{{website.image}}" alt="{{website.name}}">
+            </a>
+        </div>
+        <div class="media-body">
+            <h2 class="media-heading">{{website.name}}</h2>
+            <p>{{website.description}}</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,4 @@
+applications:
+  - name: morganes
+    command: node server/server.js
+    buildpack: nodejs_buildpack

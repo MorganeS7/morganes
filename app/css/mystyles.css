@@ -1,0 +1,117 @@
+.row-content {
+}
+
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #6575a1;
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+}
+
+.cards-container {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.navbar {
+    background-color: #6575a1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.navbar-inverse, .navbar-nav {
+    background-image: none;
+    text-shadow: none;
+    border: none;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+ .navbar-inverse .navbar-nav > .open > a:hover,
+ .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #4eabbf;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    color: #eeeeee;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
+    color: #000000;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #45ecc6;
+    text-shadow: none;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #fa9dfb;
+    text-shadow: none;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background-color: #45ecc6;
+    background-image: none;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #fa9dfb;
+    background-image: none;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+h3 {
+    color: #fa9dfb;
+    margin: 30px auto;
+    font-family: 'Pacifico', cursive;
+}
+
+h2 {
+    color: #45ecc6;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+.photo {
+    border-radius: 10px;
+    display: block;
+    height: auto;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.about-container {
+    position: relative;
+}
+
+.media-object.img-thumbnail {
+    max-width: 150px;
+}
+
+@media screen and (max-width: 800px) {
+    .media-object.img-thumbnail {
+        max-width: 80px
+    }
+}
+
+.media {
+    margin-bottom: 20px;
+}

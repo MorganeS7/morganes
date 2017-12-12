@@ -1,0 +1,16 @@
+<h3>My Skills</h3>
+<div ng-repeat="skill in skills">
+    <div class="media">
+        <div class="media-left media-top">
+            <a href="#">
+            <img class="media-object img-thumbnail"
+             src="{{skill.image}}" alt="{{skill.name}}">
+            </a>
+        </div>
+        <div class="media-body">
+            <h2 class="media-heading">{{skill.name}}</h2>
+            <p>{{skill.description}}</p>
+        </div>
+    </div>
+</div>
+

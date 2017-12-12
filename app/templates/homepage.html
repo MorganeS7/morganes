@@ -1,0 +1,46 @@
+<h3 align=center>Discover my websites creations !</h3>
+<div ng-controller="HomeController as homeCtrl">
+    <div class="media">
+        <div class="media-left media-top">
+            <a href="#">
+            <img class="media-object img-thumbnail"
+             src="{{website.image}}" alt="{{website.name}}">
+            </a>
+        </div>
+        <div class="media-body">
+            <h2 class="media-heading">{{website.name}}</h2>
+            <p>{{website.description}}</p>
+            <p><a class="btn btn-primary btn-xs" href="#!/websites">More &raquo;</a></p>
+        </div>
+    </div>
+</div>
+
+<h3 align=center>My web developer skills</h3>
+<div class="media">
+    <div class="media-left media-top">
+        <a href="#">
+        <img class="media-object img-thumbnail"
+         src="{{skill.image}}" alt="{{skill.name}}">
+        </a>
+    </div>
+    <div class="media-body">
+        <h2 class="media-heading">{{skill.name}}</h2>
+        <p>{{skill.description}}</p>
+        <p><a class="btn btn-primary btn-xs" href="#!/skills">More &raquo;</a></p>
+    </div>
+</div>
+
+<h3 align=center>Who am I ?</h3>
+<div class="media">
+    <div class="media-left media-top">
+        <a href="#">
+        <img class="media-object img-thumbnail"
+         src="images/photoMorgane.jpeg" alt="Morgane">
+        </a>
+    </div>
+    <div class="media-body">
+        <h2 class="media-heading">Creative !</h2>
+        <p>I'm 23 and my dream is to create impressive website with all the technologies I know !</p>
+        <p><a class="btn btn-primary btn-xs" href="#!/about">More &raquo;</a></p>
+    </div>
+</div>
